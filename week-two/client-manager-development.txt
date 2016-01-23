@@ -38,6 +38,10 @@ Use Google or another search engine to learn the keyboard commands to take a scr
 
 Then, also list here the keyboard commands to switch between your different virtual desktops (on some operating systems, you might be able to customize the shortcuts to your own liking):
 
+CTRL+ALT+Up arrow: to go to above desktop
+CTRL+ALT+down arrow: to go to below desktop
+CTRL+ALT+left arrow: to go to left desktop
+CTRL+ALT+right arrow: to go to right desktop
 
 4. Set up a distraction-free browser.
 
