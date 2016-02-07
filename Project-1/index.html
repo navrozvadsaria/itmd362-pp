@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 	
-	<html>
+<html>
 	
-	<head>
+<head>
 		<meta charset="utf-8" />
 		<meta viewport="screen" content="width=device-width, initial=1.0" />
 		<link rel="stylesheet" href="style.css" />
 		<link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400italic' rel='stylesheet' type='text/css'>
 	</head>
 	  
 	<body>
 	
         <div id="header">
+		<img id="NGO" src='ngo.jpg' alt="Pic of ngo logo" />
 		<h1 align="center">NGO</h1>
-		<h3>Be a volunteer</h3>
+		<h3 align="center">Be a volunteer</h3>
         </div>
         
         <div id="Info">
          
-		<label>First Name: <input type="text" name="first_name_field" ></label></br>
-		<label>Last Name: <input type="text" name="last_name_field" ></label></br>
-		<label>Phone Number: <input type="text" name="phone_field" ></label></br>
-		<label>Email Address: <input type="text" name="email_field" ></label></br>	
-		<p>Gender: <label><input type="radio" name="gender_field" value="Male" checked>Male</   label>	
-		<label><input type="radio" name="gender_field" value="Female">Female</label></p>
+		<label>First Name: <input type="text" id="first_name" / ></label><br/>
+		<label>Last Name: <input type="text" id="last_name"/ ></label><br/>
+		<label>Phone Number: <input type="text" id="phone"/ ></label><br/>
+		<label>Email Address: <input type="text" id="email" ></label><br/>	
+		<p>Gender: <label><input type="radio" id="gender" value="Male" checked>Male</   label>	
+		<label><input type="radio" id="gender" value="Female">Female</label></p>
 		<p>Age:
-		<select name="age_field">
+		<select id="age">
 		<option> Under 18</option><br>
 		<option>18-24</option><br>
 		<option>25-34</option><br>
@@ -37,26 +39,75 @@
 		</p>
 	 
         	<p>Days Available:<br>
-		<label><input type="checkbox" name="available_field[]" value="Sunday">Sunday</label><br>
-		<label><input type="checkbox" name="available_field[]" value="Monday">Monday</label><br>
-		<label><input type="checkbox" name="available_field[]" value="Tuesday">Tuesday</label><br>
-		<label><input type="checkbox" name="available_field[]" value="Wednesday">Wednesday</label><br>
-		<label><input type="checkbox" name="available_field[]" value="Thursday">Thursday</label><br>
-		<label><input type="checkbox" name="available_field[]" value="Friday">Friday</label><br>
-		<label><input type="checkbox" name="available_field[]" value="Saturday">Saturday</label></p>
+		<label><input type="checkbox" id="available" value="Sunday">Sunday</label><br/>
+		<label><input type="checkbox" id="available" value="Monday">Monday</label><br/>
+		<label><input type="checkbox" id="available" value="Tuesday">Tuesday</label><br/>
+		<label><input type="checkbox" id="available" value="Wednesday">Wednesday</label><br/>
+		<label><input type="checkbox" id="available" value="Thursday">Thursday</label><br/>
+		<label><input type="checkbox" id="available" value="Friday">Friday</label><br/>
+		<label><input type="checkbox" id="available" value="Saturday">Saturday</label><br />
 	
 	
-		<label>Any Comments?:<br><textarea name="comments_field"></textarea></label>
-	
-	
-		<input type="hidden" name="hidden_field">
-	
-	
+		<label>Any Comments?:<br><textarea id="comments"></textarea></label>	
+		
+		<br/>	
+		<br/>
+		<button id="submit">Register</button>
 	</div>
 	
 	
-	<input type="submit">
 	
+<script>
+	var fname = document.getElementById("first_name");
+	var lname = document.getElementById("last_name");
+	var phone = document.getElementById("phone");
+	var email = document.getElementById("email");
+	var gender = document.getElementById("gender");
+	var age = document.getElementById("age");
+	var available = document.getElementById("available");
+
+	submit.addEventlistener("click", Click);
+		
+	function Click(){
+	    var Valid = true;
+
+	if(fname.value == ''){
+		return false;
+	}
+	else
+		return true;
+
+	if(lname.value == ''){
+		return false;
+	}
+	else
+		return true;
+
+	if(phone.value == ''){
+		return false;
+	}
+	else
+		return true;
+
+	if(email.value == ''){
+		return = false;
+	}
+	else
+		return true;
+
+	if(gender.value == ''){
+		return false;
+	}
+	else 
+		return true;
+
+	if(available.value == ''){
+		return false;
+	}
+	else
+		return true;
 	
-	</body>
-        </html>
+	}
+</script>
+</body>
+</html>
