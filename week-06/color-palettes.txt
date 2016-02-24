@@ -16,19 +16,19 @@ Fine-grained, atomic commits to your Production Problems repository that include
 * A monochromatic palette for a website that creates high-end, custom-made gaming laptops.
 
 Filename:
-Explanation of your color choices:
+Explanation of your color choices:According to me this color palate will be great for sky games and related to universe
 
 * A shaded color palette for a website that sells natural and organic foods.
 
 Filename:
-Explanation of your color choices:
+Explanation of your color choices: As nature and organic food mainly related to green color and its shades
 
 * A complementary palette for a banking website.
 
 Filename:
-Explanation of your color choices:
+Explanation of your color choices:I have seen some banking sites which uses complementary color pattern like sky blue with red 
 
 * A triadic palette for a website that offers games for children.
 
 Filename:
-Explanation of your color choices:
+Explanation of your color choices:As children like bright color it will be perfect for children gaming sites
