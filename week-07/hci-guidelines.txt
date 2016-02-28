@@ -27,10 +27,16 @@ Fine-grained, atomic commits to your Production Problems repository that include
    specific URL where the guidance can be found) that you implemented in your sketch, written below:
 
 * HCI Guidline One (URL):
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LayoutandAppearance.html#//apple_ref/doc/uid/TP40006556-CH54-SW1
 * How you implemented it in your sketch:
+Link describes about the layout and adaptivity of page. In my sketch of my.iit page the primary content is login section which should be the center according to the guideline. Also I placed other details like contact us, iit alerts which are less important at the bottom of page.
 
 * HCI Guidline Two (URL):
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/ColorImagesText.html#//apple_ref/doc/uid/TP40006556-CH58-SW1
 * How you implemented it in your sketch:
-
+Link describes about the color and typography.I mentioned in my sketch that top portion of my.iit page so according to me it should be made a backgroud image which is lighter. Also login section should contains light grey color which is contrast to red color and lower bottom should contains white background color according to guidelines.
+ 
 * HCI Guidline Three (URL):
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Animation.html#//apple_ref/doc/uid/TP40006556-CH57-SW1
 * How you implemented it in your sketch:
+This link is about animation which should be similar to iit.edu page. According to guidelines, i placed the animations which contains images of IIT, students and events which is more interactive than wordings.
