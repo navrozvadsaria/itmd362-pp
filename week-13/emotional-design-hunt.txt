@@ -20,6 +20,8 @@ B. Emotional design levels of your object:
 
 C.  Emotional design qualities of the object that might be useful for Project 3/MyIIT redesign:
 
-1.
-2.
-3.
+1. focusing on the important content which is really useful for users.
+
+2. Removing unwanted windows and tabs.
+
+3. Providing simplistic and user friendly layout.
